@@ -1,0 +1,12 @@
+function matrix() {
+    const arr_1 = [2, 5, 3]
+    const arr_2 = [3, 2, 2]
+    var n = 3;
+    var sum = [];
+    for(var i = 0; i < n; i++) {
+            sum.push(arr_1[i] * arr_2[i])
+    }
+    var total = sum.reduce((curr, acc)=> curr + acc)
+    console.log(total)
+ }
+ matrix()
